@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.phantom.xaerosworldmapaddon.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AccessorWaypointSet"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

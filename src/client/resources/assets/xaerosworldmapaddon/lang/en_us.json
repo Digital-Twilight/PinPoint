@@ -1,0 +1,9 @@
+{
+  "command.setwaypoint.error.waypointset": "§cError: Could not get waypoint set",
+  "command.setwaypoint.success": "§a✓ Waypoint successfully added: §fX=%d Y=%d Z=%d",
+  "command.setwaypoint.error.generic": "§cError creating waypoint: %s",
+  "command.setwaypoint.error.camera": "§cCould not turn camera: %s",
+  "suggestion.coords.format": "%d, %d, %d",
+  "waypoint.default.name": "Waypoint",
+  "waypoint.default.symbol": "W"
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "xaerosworldmapaddon",
+  "version": "${version}",
+  "name": "PinPoint",
+  "description": "Adds /setwaypoint command for quick waypoint creation with automatic chat coordinate tracking and smart suggestions",
+  "authors": [
+    "Phantom"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Digital-Twilight/PinPoint",
+    "sources": "https://github.com/Digital-Twilight/PinPoint",
+    "issues": "https://github.com/Digital-Twilight/PinPoint/issues"
+  },
+  "license": "GNU General Public License v3.0",
+  "icon": "assets/xaerosworldmapaddon/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.phantom.xaerosworldmapaddon.client.XaerosWorldMapAddonClient"
+    ],
+    "main": [
+      "io.phantom.xaerosworldmapaddon.XaerosWorldMapAddon"
+    ]
+  },
+  "mixins": [
+    "xaerosworldmapaddon.mixins.json",
+    {
+      "config": "xaerosworldmapaddon.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "xaerominimap": ">=24.0.0"
+  },
+  "custom": {
+    "modmenu": {
+      "parent": "xaerominimap"
+    }
+  }
+}

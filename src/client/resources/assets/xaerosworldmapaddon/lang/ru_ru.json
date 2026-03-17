@@ -1,0 +1,9 @@
+{
+  "command.setwaypoint.error.waypointset": "§cОшибка: не удалось получить набор точек",
+  "command.setwaypoint.success": "§a✓ Метка успешно добавлена: §fX=%d Y=%d Z=%d",
+  "command.setwaypoint.error.generic": "§cОшибка при создании метки: %s",
+  "command.setwaypoint.error.camera": "§cНе удалось повернуть камеру: %s",
+  "suggestion.coords.format": "%d, %d, %d",
+  "waypoint.default.name": "Waypoint",
+  "waypoint.default.symbol": "W"
+}
