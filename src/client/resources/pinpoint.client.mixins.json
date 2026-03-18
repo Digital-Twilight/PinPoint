@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "io.phantom.xaerosworldmapaddon.client.mixin",
+  "package": "io.phantom.pinpoint.client.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
     "AccessorWaypointSet"

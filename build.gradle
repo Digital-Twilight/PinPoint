@@ -14,7 +14,7 @@ loom {
     splitEnvironmentSourceSets()
 
     mods {
-        "xaerosworldmapaddon" {
+        "pinpoint" {
             sourceSet sourceSets.main
             sourceSet sourceSets.client
         }

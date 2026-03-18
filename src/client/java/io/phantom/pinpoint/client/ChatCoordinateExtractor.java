@@ -1,4 +1,4 @@
-package io.phantom.xaerosworldmapaddon.client;
+package io.phantom.pinpoint.client;
 
 import java.util.ArrayList;
 import java.util.List;

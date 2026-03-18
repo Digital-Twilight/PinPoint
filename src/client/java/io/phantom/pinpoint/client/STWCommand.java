@@ -1,4 +1,4 @@
-package io.phantom.xaerosworldmapaddon.client;
+package io.phantom.pinpoint.client;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.IntegerArgumentType;
@@ -11,7 +11,7 @@ import net.minecraft.client.MinecraftClient;
 import net.minecraft.util.math.MathHelper;
 import xaero.common.minimap.waypoints.Waypoint;
 import xaero.hud.minimap.waypoint.WaypointPurpose;
-import io.phantom.xaerosworldmapaddon.client.mixin.AccessorWaypointSet;
+import io.phantom.pinpoint.client.mixin.AccessorWaypointSet;
 import xaero.hud.minimap.waypoint.set.WaypointSet;
 import xaero.hud.minimap.world.MinimapWorld;
 import net.minecraft.text.Text;

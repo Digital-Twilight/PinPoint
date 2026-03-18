@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "xaerosworldmapaddon",
+  "id": "pinpoint",
   "version": "${version}",
   "name": "PinPoint",
   "description": "Adds /setwaypoint command for quick waypoint creation with automatic chat coordinate tracking and smart suggestions",
@@ -8,25 +8,25 @@
     "Phantom"
   ],
   "contact": {
-    "homepage": "https://github.com/Digital-Twilight/PinPoint",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/pinpoint",
     "sources": "https://github.com/Digital-Twilight/PinPoint",
     "issues": "https://github.com/Digital-Twilight/PinPoint/issues"
   },
   "license": "GNU General Public License v3.0",
-  "icon": "assets/xaerosworldmapaddon/icon.png",
+  "icon": "assets/pinpoint/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "io.phantom.xaerosworldmapaddon.client.XaerosWorldMapAddonClient"
+      "io.phantom.pinpoint.client.PinPointClient"
     ],
     "main": [
-      "io.phantom.xaerosworldmapaddon.XaerosWorldMapAddon"
+      "io.phantom.pinpoint.PinPoint"
     ]
   },
   "mixins": [
-    "xaerosworldmapaddon.mixins.json",
+    "pinpoint.mixins.json",
     {
-      "config": "xaerosworldmapaddon.client.mixins.json",
+      "config": "pinpoint.client.mixins.json",
       "environment": "client"
     }
   ],

@@ -1,14 +1,14 @@
-# 📍 PinPoint - Xaero's World Map Addon
+# 📍 PinPoint - Xaero's Minimap Addon
 
 [![Fabric](https://img.shields.io/badge/Mod%20Loader-Fabric-dbd0b4.svg?style=flat-square)](https://fabricmc.net)
 [![License](https://img.shields.io/badge/License-GPLv3-red.svg?style=flat-square)](LICENSE)
 
-**PinPoint** is a lightweight client-side Fabric mod that adds a convenient `/setwaypoint` command for creating waypoints in [Xaero's World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map) directly from in-game chat. It automatically detects coordinates in chat messages and suggests them as you type!
+**PinPoint** is a lightweight client-side Fabric mod that adds a convenient `/setwaypoint` command for creating waypoints in [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) directly from in-game chat. It automatically detects coordinates in chat messages and suggests them as you type!
 
 ## ✨ Features
 
 ### 🎯 `/setwaypoint <x> <y> <z>`
-- Instantly creates a red waypoint in Xaero's World Map
+- Instantly creates a red waypoint in Xaero's Minimap
 - Automatically rotates your camera to face the new waypoint
 - Waypoints are named "Waypoint" with "W" symbol (customizable via lang files)
 
@@ -54,4 +54,4 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ---
 
-**Note:** This mod is not officially affiliated with Xaero's World Map or its author. It's a third-party addon created by a fan.
+**Note:** This mod is not officially affiliated with Xaero's Minimap or its author. It's a third-party addon created by a fan.

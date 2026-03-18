@@ -1,4 +1,4 @@
-package io.phantom.xaerosworldmapaddon.client.mixin;
+package io.phantom.pinpoint.client.mixin;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.gen.Accessor;
