@@ -3,7 +3,7 @@
 [![Fabric](https://img.shields.io/badge/Mod%20Loader-Fabric-dbd0b4.svg?style=flat-square)](https://fabricmc.net)
 [![License](https://img.shields.io/badge/License-GPLv3-red.svg?style=flat-square)](LICENSE)
 
-**PinPoint** is a lightweight client-side Fabric mod that adds a convenient `/setwaypoint` command for creating waypoints in [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) directly from in-game chat. It automatically detects coordinates in chat messages and suggests them as you type!
+**PinPoint** is a lightweight client-side mod that adds a convenient `/setwaypoint` command for creating waypoints in [Xaero's Minimap](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) directly from in-game chat. It automatically detects coordinates in chat messages and suggests them as you type!
 
 ## ✨ Features
 
@@ -49,7 +49,6 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 ## 🙏 Acknowledgements
 
 - [xaero96](https://twitter.com/xaero96) for the amazing Xaero's World Map and Minimap mods
-- The Fabric team for the awesome modding toolchain
 - All users who provide feedback and suggestions!
 
 ---
